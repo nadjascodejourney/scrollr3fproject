@@ -1,8 +1,27 @@
-# React + Vite
+# Animated Scroll Website with React Three Fiber and GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple interactive 3D web application build for selfstudy purposes. My goal is to use 3D web technologies in combination with scroll-based animations to offer an immersive user experience.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application utilizes the following technologies:
+
+- Vite & React: For fast development and optimized build management.
+- react-three/fiber: Integration of Three.js with React for a reactive 3D rendering environment.
+- react-three/drei: Extension of react-three/fiber with useful helper components.
+- Three.js: WebGL based library for 3D graphics on the web.
+- CSS & Tailwind CSS: For styling and layout.
+- GSAP: For animations.
+
+## Features
+
+- Scroll-Based Animations: Interactive 3D animations controlled by scrolling
+- Including particles, 3D objects, and an Overlay to display HTML in front of the Canvas
+- Responsive Camera Behavior: The camera dynamically responds to mouse movements and scrolling (i.e. parallax effect)
+- It works responsive on different sizes
+
+# Learning Resources:
+
+- React Three Fiber Documentation - Pmndrs.docs
+- Three.js-journey by Bruno Simon
+- Wawa Sensei
