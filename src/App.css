@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: var(
+    --darkmode-backgroundColor,
+    linear-gradient(0deg, #060617 0%, #103039 100%)
+  );
+}
