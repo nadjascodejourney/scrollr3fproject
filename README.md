@@ -8,7 +8,7 @@ The application utilizes the following technologies:
 
 - Vite & React: For fast development and optimized build management.
 - react-three/fiber: Integration of Three.js with React for a reactive 3D rendering environment.
-- react-three/drei: Extension of react-three/fiber with useful helper components.
+- react-three/drei: Extension of react-three/fiber with useful helper components (i.e.: <Html/>, <Sparkles/>)
 - Three.js: WebGL based library for 3D graphics on the web.
 - CSS & Tailwind CSS: For styling and layout.
 - GSAP: For animations.
@@ -16,7 +16,8 @@ The application utilizes the following technologies:
 ## Features
 
 - Scroll-Based Animations: Interactive 3D animations controlled by scrolling
-- Including particles, 3D objects, and an Overlay to display HTML in front of the Canvas
+- Including particles with a custom calculated Positions Array and 3D-Objects with scroll-based movements
+- Overlay outside of the Canvas to display HTML in front of the Canvas
 - Responsive Camera Behavior: The camera dynamically responds to mouse movements and scrolling (i.e. parallax effect)
 - It works responsive on different sizes
 

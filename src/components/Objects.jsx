@@ -13,20 +13,23 @@ const Objects = () => {
         position={[0, -height * 2.25, 5]} /* minus height! */
         intensity={10}
       />
-      <Item color="red" position={[0, 1, 0]}>
+      <Item color="purple" position={[0, 1, 0]}>
         <boxGeometry />
       </Item>
       <Item color="blue" position={[width / 5, -height * 1, 0]}>
         <dodecahedronGeometry />
       </Item>
-      <Item color="gray" position={[-width / 5, -height * 1.8, -2]}>
+      <Item color="greenyellow" position={[-width / 3, -height * 1.8, -2]}>
         <coneGeometry args={[1, 1, 6]} />
       </Item>
       <Item color="purple" position={[width / 4, -height * 2, 0]}>
         <coneGeometry args={[1.5, 2, 3]} />
       </Item>
-      <Item color="orange" position={[-width / 12, -height * 2.25, 0.5]}>
+      <Item color="orange" position={[-width / 12, -height * 2.5, 0.5]}>
         <coneGeometry args={[0.75, 2.5, 12]} />
+      </Item>
+      <Item color="blue" position={[width / 3, -height * 3, -4]}>
+        <octahedronGeometry />
       </Item>
     </>
   );
