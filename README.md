@@ -1,6 +1,8 @@
 # Animated Scroll Website with React Three Fiber and GSAP
 
-This project is a simple interactive 3D web application build for selfstudy purposes. My goal is to use 3D web technologies in combination with scroll-based animations to offer an immersive user experience.
+This project is a simple interactive 3D web application build for selfstudy purposes. 
+My goal is to use 3D web technologies in combination with scroll-based animations to offer an immersive user experience.
+Click the link in the description, to see it live!
 
 ## Project Overview
 
